@@ -1,4 +1,4 @@
-FROM makevoid/ruby
+FROM makevoid/ruby-2.5
 
 RUN apt-get update
 RUN apt-get install -y git nodejs npm && \
